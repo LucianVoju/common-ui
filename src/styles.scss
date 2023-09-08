@@ -1,2 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-@use "@carbon/styles";
+$font-path: '/assets/carbon-fonts/';
+// @use "@carbon/styles";
+@import '../node_modules/carbon-components/scss/globals/scss/styles';
