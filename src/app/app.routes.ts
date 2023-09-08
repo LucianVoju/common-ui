@@ -1,11 +1,8 @@
 import { Route } from '@angular/router';
 
-import {HomeComponent} from '@home-page'
-
-export const appRoutes: Route[] = [
+export const APP_ROUTES: Route[] = [
     {
         path:'',
-        component: HomeComponent,
-        pathMatch: 'full'
+        loadChildren: () => import('@home-page').then((c) => c.HOMEPAGE_ROUTES)
     }
 ];
