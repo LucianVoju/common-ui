@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@home-page": ["modules/home/src/index.ts"],
       "@login-page": ["modules/login/src/index.ts"],
       "@shared/ui": ["modules/shared/ui/src/index.ts"]
     }
